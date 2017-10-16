@@ -5,6 +5,24 @@ This document describes all the changes made to the *Incoming Mobilities API*
 document, starting from its first beta draft version.
 
 
+0.1.1
+-----
+
+* Bugfix: Fixed a wrong XML namespace in `manifest-entry.xsd`.
+
+  It supposed to be:
+
+  ```
+  https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd
+  ```
+
+  but it was:
+
+  ```
+  https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd
+  ```
+
+
 0.1.0
 -----
 
