@@ -107,6 +107,22 @@
                         </xs:documentation>
                     </xs:annotation>
                 </xs:element>
+                <xs:element name="status-comment" type="xs:string" minOccurs="0" maxOccurs="1">
+                    <xs:annotation>
+                        <xs:documentation>
+                            An optional comment. It is RECOMMENDED for comments to be provided only when
+                            necessary (i.e. when nominations are rejected). These comments MUST be visible only to the IRO
+                            members, not the students.
+
+                            Note, that this API allows for every mobility to have a different
+                            comment. However, it is also okay for the clients to simply "batch copy" a single comment to all
+                            mobilities being rejected.
+
+                            It is left unspecified how servers should handle these comments - e.g.
+                            they may store them along their mobilities, or they may forward them to specific persons, etc.
+                        </xs:documentation>
+                    </xs:annotation>
+                </xs:element>
                 <xs:element name="actual-arrival-date" type="xs:date" minOccurs="0" maxOccurs="1">
                     <xs:annotation>
                         <xs:documentation>

@@ -13,4 +13,10 @@
         <actual-arrival-date>2010-02-05</actual-arrival-date>
         <actual-departure-date>2010-06-19</actual-departure-date>
     </student-mobility-for-studies>
+    
+    <student-mobility-for-studies>
+        <omobility-id>d331d178-4430-3dbf-8fec-7be72f022502</omobility-id>
+        <status>rejected</status>
+        <status-comment>The agreement applies to Master's studies. This is a PhD student.</status-comment>
+    </student-mobility-for-studies>
 </imobilities-get-response>
