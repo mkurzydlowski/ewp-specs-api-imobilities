@@ -6,11 +6,12 @@ document, starting from its first beta draft version.
 
 0.3.0
 -----
- * Adding optional element `status-comment`.
+ * Adding optional element `comment`.
 
   The comment was present in the Outgoing Mobilities `update-statuses` request
   and was mistakenly ommitted when moving nomination acceptance from Outgoing
-  to Incoming Mobilities API.
+  to Incoming Mobilities API. The `comment` is now independent of `status`,
+  so it can be used more widely, eg. to notify partner about some strange situation.
 
 0.2.0
 -----
