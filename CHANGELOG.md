@@ -4,9 +4,15 @@ Release notes
 This document describes all the changes made to the *Incoming Mobilities API*
 document, starting from its first beta draft version.
 
+0.3.1
+-----
+
+* Link to workflows of changes in nomination and departure statuses added to `README.md`
+
 0.3.0
 -----
- * Adding optional element `comment`.
+
+* Adding optional element `comment`.
 
   The comment was present in the Outgoing Mobilities `update-statuses` request
   and was mistakenly ommitted when moving nomination acceptance from Outgoing
