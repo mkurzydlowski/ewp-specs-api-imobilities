@@ -68,7 +68,7 @@ Workflows of changes in nomination and departure statuses
 Mobility and its nomination have two different sets of statuses sent via Outgoing/Incoming Mobilities API get response. Example scenarios of status changes are presented in the [Outgoing Mobilities API readme file][statuses-changes].
 
 
-[develhub]: http://developers.erasmuswithoutpaper.eu/
+[develhub]: https://developers.erasmuswithoutpaper.eu/
 [statuses]: https://github.com/erasmus-without-paper/ewp-specs-management#statuses
 [registry-spec]: https://github.com/erasmus-without-paper/ewp-specs-api-registry
 [discovery-api]: https://github.com/erasmus-without-paper/ewp-specs-api-discovery

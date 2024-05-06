@@ -108,7 +108,7 @@ Servers MUST respond with a valid XML document described by the
 further information.
 
 
-[develhub]: http://developers.erasmuswithoutpaper.eu/
+[develhub]: https://developers.erasmuswithoutpaper.eu/
 [statuses]: https://github.com/erasmus-without-paper/ewp-specs-management#statuses
 [echo]: https://github.com/erasmus-without-paper/ewp-specs-api-echo
 [error-handling]: https://github.com/erasmus-without-paper/ewp-specs-architecture#error-handling
