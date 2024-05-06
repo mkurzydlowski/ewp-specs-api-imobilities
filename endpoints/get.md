@@ -29,18 +29,12 @@ Parameters MUST be provided in the regular `application/x-www-form-urlencoded`
 format.
 
 
-### `receiving_hei_id` (required)
-
-SCHAC ID of the receiving HEI of the mobilities. This parameter MUST be
-required by the server even if the server covers only a single institution.
-
-
 ### `omobility_id` (repeatable, required)
 
 A list of identifiers (no more than `<max-omobility-ids>` items) of mobilities
 which the client wants to retrieve information on. All of these mobilities
-should be the mobilities of which the HEI provided in the `receiving_hei_id`
-parameter is the receiving partner of (otherwise, they will be ignored).
+should be the mobilities of which the HEI covered by the caller
+is the receiving partner of (otherwise, they will be ignored).
 
 Note, that mobilities in this API are identified by their *outgoing* mobility
 identifiers. These are the identifiers supplied by the sending HEI. This means
