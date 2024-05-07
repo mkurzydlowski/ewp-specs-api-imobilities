@@ -122,21 +122,35 @@
                         </xs:documentation>
                     </xs:annotation>
                 </xs:element>
+                <xs:element name="planned-arrival-date" type="xs:date" minOccurs="0" maxOccurs="1">
+                    <xs:annotation>
+                        <xs:documentation>
+                            Planned start date of the mobility (when the student is supposed to arrive).
+                            This date is provided before the mobility.
+                        </xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="planned-departure-date" type="xs:date" minOccurs="0" maxOccurs="1">
+                    <xs:annotation>
+                        <xs:documentation>
+                            Planned end date of the mobility (when the student is supposed to leave).
+                            This date is provided before the mobility.
+                        </xs:documentation>
+                    </xs:annotation>
+                </xs:element>
                 <xs:element name="actual-arrival-date" type="xs:date" minOccurs="0" maxOccurs="1">
                     <xs:annotation>
                         <xs:documentation>
                             Actual start date of the mobility. "Actual" means "when the student has
-                            actually arrived". This stands in contrast with the "planned" date, as provided
-                            by the sending HEI in Outgoing Mobilities API.
+                            actually arrived". This stands in contrast with the "planned" date.
                         </xs:documentation>
                     </xs:annotation>
                 </xs:element>
                 <xs:element name="actual-departure-date" type="xs:date" minOccurs="0" maxOccurs="1">
                     <xs:annotation>
                         <xs:documentation>
-                            Actual end date of the mobility. "Actual" means "when the student has actually
-                            left". This stands in contrast with the "planned" date, as provided by the
-                            sending HEI in Outgoing Mobilities API.
+                            Actual end date of the mobility. "Actual" means "when the student has
+                            actually left". This stands in contrast with the "planned" date.
                         </xs:documentation>
                     </xs:annotation>
                 </xs:element>
