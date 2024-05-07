@@ -154,6 +154,38 @@
                         </xs:documentation>
                     </xs:annotation>
                 </xs:element>
+                <xs:element name="planned-virtual-start-date" type="xs:date" minOccurs="0" maxOccurs="1">
+                    <xs:annotation>
+                        <xs:documentation>
+                            Planned start date of the virtual component of the mobility (when it is supposed to start).
+                            This date is provided before the mobility.
+                        </xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="planned-virtual-end-date" type="xs:date" minOccurs="0" maxOccurs="1">
+                    <xs:annotation>
+                        <xs:documentation>
+                            Planned end date of the virtual component of the mobility (when it is supposed to end).
+                            This date is provided before the mobility.
+                        </xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="actual-virtual-start-date" type="xs:date" minOccurs="0" maxOccurs="1">
+                    <xs:annotation>
+                        <xs:documentation>
+                            Actual start date of the virtual component of the mobility. "Actual" means "when the component has
+                            actually started". This stands in contrast with the "planned" date.
+                        </xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="actual-virtual-end-date" type="xs:date" minOccurs="0" maxOccurs="1">
+                    <xs:annotation>
+                        <xs:documentation>
+                            Actual end date of the virtual component of the mobility. "Actual" means "when the component has
+                            actually ended". This stands in contrast with the "planned" date.
+                        </xs:documentation>
+                    </xs:annotation>
+                </xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
