@@ -74,20 +74,17 @@
             </xs:documentation>
         </xs:annotation>
         <xs:choice>
-            <xs:element ref="student-mobility-for-studies"/>
+            <xs:element ref="student-mobility"/>
         </xs:choice>
     </xs:group>
 
-    <xs:element name="student-mobility-for-studies">
+    <xs:element name="student-mobility">
         <xs:complexType>
             <xs:annotation>
                 <xs:documentation>
-                    This describes the "incoming part" of a single Student Mobility for Studies.
+                    This describes the "incoming part" of a single Student Mobility.
                     "Incoming part" is the set of mobility's properties which the *receiving* HEI
                     is the master of.
-
-                    In the future, it may become a "subclass" of a more generic Mobility parent class
-                    (and some of the fields might be moved to the parent).
                 </xs:documentation>
             </xs:annotation>
             <xs:sequence>
