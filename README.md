@@ -17,6 +17,16 @@ mobilities.)
 Currently, this API describes mobilities **of one type only** - *Student
 Mobilities for Studies*. More types MAY be added in the future.
 
+If HEI provides any API from the following group:
+* Outgoing Mobilities
+* Outgoing Mobilities CNR
+* Outgoing Mobilities Stats
+* Incoming Mobilities
+* Incoming Mobilities CNR
+* Incoming Mobilities Stats
+
+it must provide all APIs from this group.
+
 
 Reminder on vocabulary
 ----------------------
