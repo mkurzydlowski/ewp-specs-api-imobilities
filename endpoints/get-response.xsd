@@ -156,8 +156,9 @@
                     <xs:documentation>
                         The nomination was recognized by the receiving HEI as formally correct and
                         complying with cooperation conditions. Now it's time for settling formalities,
-                        sending
-                        student's documents, creating the first Learning Agreement, etc.
+                        sending student's documents, creating the first Learning Agreement, etc.
+
+                        The decision of the receiving HEI concerning this particular mobility is final.
                     </xs:documentation>
                 </xs:annotation>
             </xs:enumeration>
@@ -165,6 +166,8 @@
                 <xs:annotation>
                     <xs:documentation>
                         The nomination has been rejected by the receiving HEI.
+
+                        The decision of the receiving HEI concerning this particular mobility is final.
                     </xs:documentation>
                 </xs:annotation>
             </xs:enumeration>
